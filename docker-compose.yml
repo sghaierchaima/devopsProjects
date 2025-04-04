@@ -24,7 +24,7 @@ services:
       context: ./gestion-deEmployee  # Répertoire du frontend (Angular)
       dockerfile: Dockerfile
     ports:
-      - "4300:4300"  # Exposer le port 4200 pour Angular
+      - "4301:80"  # Exposer le port 4200 pour Angular
     depends_on:
       - backend
     networks:
